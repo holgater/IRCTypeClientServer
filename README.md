@@ -34,12 +34,18 @@ Start up the server with 'java Server', and start up any number of clients by ru
 The server will run on it's own, displaying appropriate messages along the way, but requires no further interaction.
 Each client represents a user in the IRC server. After providing a username at the prompt, type 'help' to display the following prompt:
 
-  Type one of the following commands to get the listed result.
+    Type one of the following commands to get the listed result.
         list [room] - list all available rooms. If a [room] was provided, list all users in that room instead.
+          
         join [room1] [room2] ... [room n] - join all listed rooms. If a room doesn't exist, it'll be created and the user will join it.
+          
         leave [room] - leave room [room]. If [room] doesn't exist nothing will happen.
+          
         (msg (or) message) room:[room1] [message1] room:[room2] [message2] ... room:[room n] [message n]
-                - send [message] to [room]. If [room] doesn't exist, nothing will happen
+          
+        send [message] to [room]. If [room] doesn't exist, nothing will happen
+                
         quit - close the program
+        
         
 After you're finished with all the clients, simply close the Server. There is no exit command for it.
