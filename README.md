@@ -23,14 +23,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Compiling:
+# Compiling:
 Just a regular 'javac *.java' should work to compile.
 
-Running:
+# Running:
 This program is run with 1 server and any number of clients. 
 Start up the server with 'java Server', and start up any number of clients by running 'java Client' any number of times.
 
-Use:
+# Use:
 The server will run on it's own, displaying appropriate messages along the way, but requires no further interaction.
 Each client represents a user in the IRC server. After providing a username at the prompt, type 'help' to display the following prompt:
 
